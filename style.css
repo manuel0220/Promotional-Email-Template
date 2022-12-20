@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@700;800&family=Playfair+Display:wght@500;600&family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+td {
+  padding: 0;
+}
+img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  width: 100%;
+  table-layout: fixed;
+  background-color: #ffffff;
+  padding-bottom: 60px;
+}
+
+.main-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff1e0;
+  font-family: sans-serif;
+  color: #201616;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.two-columns {
+  font-size: 0;
+  text-align: center;
+}
+
+.column .info-page {
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-left: 55px;
+}
+
+.column .info-page a {
+  padding: 5px 5px;
+  color: #201616;
+}
+.two-columns .column {
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section {
+  background-color: #383029;
+}
+
+.section p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.section h2 {
+  color: #f8d888;
+  font-size: 36px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.button {
+  background-color: #e44500;
+  color: #ffffff;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 11px;
+}
+
+.button:hover {
+  background-color: #fa5e1b;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.three-columns {
+  font-size: 0;
+  padding-bottom: 20px;
+}
+
+.three-columns .column {
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.three-columns .padding {
+  padding: 25px;
+}
+
+.three-columns .content {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.ourBeer {
+  color: #383029;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.ourBeer h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.ourBeer p {
+  width: 100%;
+  max-width: 600px;
+  font-size: 20px;
+}
+
+.beer-columns {
+  font-size: 0;
+  padding-bottom: 50px;
+}
+
+.beer-columns .column {
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.beer-columns .padding {
+  padding: 10px;
+}
+
+.beer-columns .content {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.two-columns .last {
+  padding: 35px 0;
+  color: #393d47;
+}
+
+.two-columns .padding {
+  padding: 20px;
+}
+
+.two-columns .content {
+  font-size: 15px;
+  line-height: 20px;
+}
